@@ -5,8 +5,8 @@ import {
   IconsNav,
   LogoContainer,
   TopNav,
-} from '../styled/navStyled';
-import Logo from '../assets/home/Logo.png';
+} from '../../styled/homeStyled/navStyled';
+import Logo from '../../assets/home/Logo.png';
 export const Nav = () => {
   return (
     <TopNav>

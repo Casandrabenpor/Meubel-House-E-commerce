@@ -1,4 +1,4 @@
-import BackgroundImg from '../assets/home/background.png';
+import BackgroundImg from '../../assets/home/background.png';
 import React from 'react';
 import {
   Button,
@@ -7,7 +7,7 @@ import {
   TextPrimary,
   TextTitle,
   Title,
-} from '../styled/backgroundStyled';
+} from '../../styled/homeStyled/backgroundStyled';
 
 export const Background = () => {
   return (

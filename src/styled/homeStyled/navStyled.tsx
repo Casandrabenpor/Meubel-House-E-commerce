@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 import { Link } from 'react-router-dom';
-import { colors } from './theme';
+import { colors } from '../theme';
 
 export const TopNav = styled.div`
   display: flex;

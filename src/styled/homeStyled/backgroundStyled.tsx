@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import { colors } from './theme';
+import { colors } from '../theme';
 export const ContainerBackground = styled.section`
   position: relative;
   img {
@@ -53,4 +53,10 @@ export const Button = styled.button`
   line-height: normal;
   text-transform: uppercase;
   margin-top: 2%;
+  cursor: pointer;
+
+  &:hover {
+    background-color: ${colors.white};
+    color: ${colors.yellow};
+  }
 `;
