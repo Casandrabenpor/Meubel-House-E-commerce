@@ -25,3 +25,12 @@ export const SectionBedrooms = styled.div`
   gap: 3em;
   justify-content: center;
 `;
+export const TextBedrooms = styled.p`
+  color: ${colors.black};
+  text-align: center;
+  font-family: Poppins;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+`;

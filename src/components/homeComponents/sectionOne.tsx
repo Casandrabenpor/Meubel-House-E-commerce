@@ -7,6 +7,7 @@ import {
   SectionBedrooms,
   Subtitle,
   Text,
+  TextBedrooms,
 } from '../../styled/homeStyled/sectionOneStyled';
 
 export const SectionOne = () => {
@@ -15,10 +16,18 @@ export const SectionOne = () => {
       <Subtitle>Browse The Range</Subtitle>
       <Text>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</Text>
       <SectionBedrooms>
-        <img src={Dining} alt="Dining" />
-
-        <img src={Living} alt="Living" />
-        <img src={Bedroom} alt="Bedroom" />
+        <div>
+          <img src={Dining} alt="Dining" />
+          <TextBedrooms>Dining</TextBedrooms>
+        </div>
+        <div>
+          <img src={Living} alt="Living" />
+          <TextBedrooms>Living</TextBedrooms>
+        </div>
+        <div>
+          <img src={Bedroom} alt="Bedroom" />
+          <TextBedrooms>Bedroom</TextBedrooms>
+        </div>
       </SectionBedrooms>
     </Section>
   );
