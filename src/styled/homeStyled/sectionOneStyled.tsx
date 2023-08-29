@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 import { colors } from '../theme';
-export const Section = styled.section``;
-export const Subtitle = styled.h2`
+
+export const Subtitle = styled.h3`
   color: ${colors.black};
   font-family: Poppins;
   font-size: 32px;

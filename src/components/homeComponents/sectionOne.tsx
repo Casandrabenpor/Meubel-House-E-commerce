@@ -3,7 +3,6 @@ import Bedroom from '../../assets/home/image101.png';
 import Dining from '../../assets/home/image106.png';
 import Living from '../../assets/home/image100.png';
 import {
-  Section,
   SectionBedrooms,
   Subtitle,
   Text,
@@ -12,7 +11,7 @@ import {
 
 export const SectionOne = () => {
   return (
-    <Section>
+    <section>
       <Subtitle>Browse The Range</Subtitle>
       <Text>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</Text>
       <SectionBedrooms>
@@ -29,6 +28,6 @@ export const SectionOne = () => {
           <TextBedrooms>Bedroom</TextBedrooms>
         </div>
       </SectionBedrooms>
-    </Section>
+    </section>
   );
 };
