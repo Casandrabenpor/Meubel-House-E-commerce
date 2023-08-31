@@ -39,3 +39,22 @@ export const RpGallery = styled.h4`
   font-style: normal;
   font-weight: 600;
 `;
+export const ButtonGallery = styled.button`
+  color: ${colors.yellow};
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 150%;
+  border: 1px solid ${colors.yellow};
+  background: #fff;
+  margin-left: 45%;
+  margin-top: 5%;
+  width: 15em;
+  height: 5em;
+  cursor: pointer;
+  &:hover {
+    background-color: ${colors.yellow};
+    color: ${colors.white};
+  }
+`;
