@@ -6,6 +6,8 @@ import {
   Shopping,
   ShoppingText,
   TextContainer,
+  TextTotal,
+  Total,
 } from '../../styled/homeStyled/navStyled';
 import { useTypedDispatch, useTypedSelector } from '../../app/store';
 import { toggle } from '../../features/sideBarSlice';
@@ -72,6 +74,10 @@ export const AsideCart = () => {
             </TextContainer>
           </ShoppingText>
         </Shopping>
+        <TextTotal>
+          <p>Subtotal</p>
+          <Total>Rs. 520,000.00</Total>
+        </TextTotal>
       </Content>
     </Aside>
   ) : (

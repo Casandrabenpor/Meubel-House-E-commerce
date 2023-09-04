@@ -46,7 +46,7 @@ export const Aside = styled.aside`
   box-shadow: 0 0 10px rgba(0, 0, 0, 1.2);
   background: ${colors.white};
   height: 80vh;
-  width: 35%;
+  width: 30%;
   border: 1px solid black;
   top: 0;
   right: 0;
@@ -77,6 +77,7 @@ export const Shopping = styled.div`
 export const ShoppingText = styled.div`
   display: flex;
   flex-direction: column;
+
   p {
     color: ${colors.black};
     font-family: Poppins;
@@ -88,10 +89,31 @@ export const ShoppingText = styled.div`
 
   p.yellow-text {
     color: ${colors.yellow};
+    font-family: Poppins;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
   }
 `;
 export const TextContainer = styled.div`
   display: flex;
   flex-direction: row;
   gap: 3em;
+  align-items: center;
+`;
+export const TextTotal = styled.div`
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 60%;
+  align-items: center;
+`;
+export const Total = styled.h4`
+  color: ${colors.yellow};
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
 `;
