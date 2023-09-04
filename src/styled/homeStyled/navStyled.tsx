@@ -43,25 +43,19 @@ export const IconsNav = styled.div`
 // ASIDE
 
 export const Aside = styled.aside`
-  box-shadow: 0px 3px 10px #00000005;
-  display: flex;
-  flex-direction: column;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 1.2);
   background: ${colors.white};
-  height: 100vh;
-  width: 10%;
+  height: 80vh;
+  width: 35%;
   border: 1px solid black;
-  padding: 2em;
   top: 0;
   right: 0;
-  overflow-x: hidden;
   position: fixed;
   padding: 1em;
-  color: red;
+  color: ${colors.black};
+  z-index: 1;
 `;
 export const Content = styled.div<Props>`
   width: ${(props) => (props.$sideBarActivated ? '85%' : '100%')};
   margin-right: ${(props) => (props.$sideBarActivated ? '15%' : '0%')};
-`;
-export const ButtonClose = styled.button`
-  cursor: pointer;
 `;
