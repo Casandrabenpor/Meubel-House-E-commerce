@@ -1,6 +1,8 @@
 import React from 'react';
 import {
+  ButtonCard,
   ButtonGallery,
+  Card,
   Gallery,
   RpGallery,
   Subtitle,
@@ -21,29 +23,33 @@ export const SectionGallery = () => {
     <div>
       <Subtitle>Our Products</Subtitle>
       <Gallery>
-        <div>
+        <Card>
           <img src={Syltherine} alt="Syltherine" />
           <TitleGallery>Syltherine</TitleGallery>
           <TextGallery>Stylish cafe chair</TextGallery>
           <RpGallery>Rp 2.500.000</RpGallery>
-        </div>
-        <div>
+          <ButtonCard>Add to cart</ButtonCard>
+        </Card>
+        <Card>
           <img src={Leviosa} alt="Leviosa" />
           <TitleGallery>Leviosa</TitleGallery>
           <TextGallery>Stylish cafe chair</TextGallery>
           <RpGallery>Rp 2.500.000</RpGallery>
-        </div>
+          <ButtonCard>Add to cart</ButtonCard>
+        </Card>
         <div>
           <img src={Lolito} alt="Lolito" />
           <TitleGallery>Lolito</TitleGallery>
           <TextGallery>Luxury big sofa</TextGallery>
           <RpGallery>Rp 7.000.000</RpGallery>
+          <ButtonCard>Add to cart</ButtonCard>
         </div>
         <div>
           <img src={Respira} alt="Respira" />
           <TitleGallery>Respira</TitleGallery>
           <TextGallery>Outdoor bar table and stool</TextGallery>
           <RpGallery>Rp 500.000</RpGallery>
+          <ButtonCard>Add to cart</ButtonCard>
         </div>
       </Gallery>
       <Gallery>
@@ -52,24 +58,28 @@ export const SectionGallery = () => {
           <TitleGallery>Grifo</TitleGallery>
           <TextGallery>Night lamp</TextGallery>
           <RpGallery>Rp 2.500.000</RpGallery>
+          <ButtonCard>Add to cart</ButtonCard>
         </div>
         <div>
           <img src={Muggo} alt="Muggo" />
           <TitleGallery>Muggo</TitleGallery>
           <TextGallery>Small mug</TextGallery>
           <RpGallery>Rp 2.500.000</RpGallery>
+          <ButtonCard>Add to cart</ButtonCard>
         </div>
         <div>
           <img src={Pingky} alt="Pingky" />
           <TitleGallery>Pingky</TitleGallery>
           <TextGallery>Cute bed set</TextGallery>
           <RpGallery>Rp 2.500.000</RpGallery>
+          <ButtonCard>Add to cart</ButtonCard>
         </div>
         <div>
           <img src={Potty} alt="Potty" />
           <TitleGallery>Potty</TitleGallery>
           <TextGallery>Minimalist flower pot</TextGallery>
           <RpGallery>Rp 2.500.000</RpGallery>
+          <ButtonCard>Add to cart</ButtonCard>
         </div>
       </Gallery>
       <ButtonGallery>Show More</ButtonGallery>

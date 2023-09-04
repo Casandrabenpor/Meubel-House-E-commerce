@@ -11,6 +11,26 @@ export const Subtitle = styled.h2`
   font-weight: 700;
   line-height: 120%; /* 48px */
 `;
+
+export const Card = styled.div`
+  cursor: pointer;
+
+  /* &:hover {
+    opacity: 0.72;
+    background-color: ${colors.gray3};
+  } */
+`;
+export const ButtonCard = styled.button`
+  width: 10em;
+  height: 3em;
+  cursor: pointer;
+  color: ${colors.yellow};
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 150%;
+`;
 export const Gallery = styled.section`
   display: flex;
   flex-direction: row;
@@ -19,7 +39,7 @@ export const Gallery = styled.section`
   margin-top: 5%;
 `;
 export const TitleGallery = styled.h4`
-  color: ${colors.gray3};
+  color: ${colors.black};
   font-family: Poppins;
   font-size: 24px;
   font-style: normal;
