@@ -2,6 +2,9 @@ import styled from 'styled-components';
 import { Link } from 'react-router-dom';
 import { colors } from '../theme';
 
+interface Props {
+  $sideBarActivated: boolean;
+}
 export const TopNav = styled.div`
   display: flex;
   flex-direction: row;
@@ -35,4 +38,15 @@ export const IconsNav = styled.div`
   flex-direction: row;
   gap: 2em;
   cursor: pointer;
+`;
+
+// ASIDE
+
+export const Aside = styled.aside`
+  padding: 4% 6% 20px;
+  border: 1px solid black;
+`;
+export const Content = styled.div<Props>`
+  width: ${(props) => (props.$sideBarActivated ? '85%' : '100%')};
+  margin-right: ${(props) => (props.$sideBarActivated ? '15%' : '0%')};
 `;
