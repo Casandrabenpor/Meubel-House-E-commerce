@@ -1,5 +1,9 @@
 import React from 'react';
-import { Aside, Content } from '../../styled/homeStyled/navStyled';
+import {
+  Aside,
+  AsideContainer,
+  Content,
+} from '../../styled/homeStyled/navStyled';
 import { useTypedDispatch, useTypedSelector } from '../../app/store';
 import { toggle } from '../../features/sideBarSlice';
 
@@ -15,7 +19,7 @@ export const AsideCart = () => {
   return sideBarActivated ? (
     <Aside>
       <Content $sideBarActivated={sideBarActivated}>
-        <div>
+        <AsideContainer>
           <h3>Shopping Cart</h3>
           <svg
             onClick={toggleSideBar}
@@ -37,7 +41,8 @@ export const AsideCart = () => {
               fill="#9F9F9F"
             />
           </svg>
-        </div>
+        </AsideContainer>
+        <hr />
       </Content>
     </Aside>
   ) : (

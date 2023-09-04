@@ -59,3 +59,9 @@ export const Content = styled.div<Props>`
   width: ${(props) => (props.$sideBarActivated ? '85%' : '100%')};
   margin-right: ${(props) => (props.$sideBarActivated ? '15%' : '0%')};
 `;
+export const AsideContainer = styled.section`
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+`;
