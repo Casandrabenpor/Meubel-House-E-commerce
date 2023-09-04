@@ -65,3 +65,33 @@ export const AsideContainer = styled.section`
   align-items: center;
   justify-content: space-between;
 `;
+export const Shopping = styled.div`
+  display: flex;
+  flex-direction: row;
+  gap: 2em;
+  img {
+    width: 40%;
+    height: 20vh;
+  }
+`;
+export const ShoppingText = styled.div`
+  display: flex;
+  flex-direction: column;
+  p {
+    color: ${colors.black};
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+
+  p.yellow-text {
+    color: ${colors.yellow};
+  }
+`;
+export const TextContainer = styled.div`
+  display: flex;
+  flex-direction: row;
+  gap: 3em;
+`;
