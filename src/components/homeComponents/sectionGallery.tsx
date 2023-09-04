@@ -17,8 +17,11 @@ import Grifo from '../../assets/home/image9.png';
 import Muggo from '../../assets/home/image6.png';
 import Pingky from '../../assets/home/image7.png';
 import Potty from '../../assets/home/image8.png';
+import { useTypedDispatch } from '../../app/store';
 
 export const SectionGallery = () => {
+  const dispatch = useTypedDispatch();
+
   return (
     <div>
       <Subtitle>Our Products</Subtitle>

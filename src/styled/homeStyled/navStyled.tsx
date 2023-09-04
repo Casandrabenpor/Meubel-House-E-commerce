@@ -117,3 +117,23 @@ export const Total = styled.h4`
   font-weight: 600;
   line-height: normal;
 `;
+
+export const ButtonTotal = styled.div`
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 2em;
+`;
+export const Button = styled.button`
+  padding: 6px 30px;
+  border-radius: 50px;
+  border: 1px solid #000;
+  color: ${colors.black};
+  font-family: Poppins;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  cursor: pointer;
+  margin-top: 5%;
+`;

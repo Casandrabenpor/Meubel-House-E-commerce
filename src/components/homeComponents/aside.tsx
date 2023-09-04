@@ -2,6 +2,8 @@ import React from 'react';
 import {
   Aside,
   AsideContainer,
+  Button,
+  ButtonTotal,
   Content,
   Shopping,
   ShoppingText,
@@ -78,6 +80,12 @@ export const AsideCart = () => {
           <p>Subtotal</p>
           <Total>Rs. 520,000.00</Total>
         </TextTotal>
+        <hr />
+        <ButtonTotal>
+          <Button>Cart</Button>
+          <Button>Checkout</Button>
+          <Button>Comparison</Button>
+        </ButtonTotal>
       </Content>
     </Aside>
   ) : (
